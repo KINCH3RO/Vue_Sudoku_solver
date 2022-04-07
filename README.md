@@ -1,5 +1,14 @@
 # reactive_sudoku_solver
 
+
+ - This project is based on [FCC sudoku solver challenge](https://github.com/kinchero1/FCC_sudoku_solver)
+ - This project made using vue and tailwind
+ 
+
+
+# Setup
+
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
