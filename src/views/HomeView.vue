@@ -2,9 +2,10 @@
 import PuzzleInput from "../components/PuzzleInput.vue";
 import SudokuMatrice from "../components/SudokuMatrice.vue";
 import SudokuSolver from "../scripts/SudokuSolver"
+import GitHubIcon from "../components/icons/GitHubIcon.vue"
 
 export default {
-  components: { PuzzleInput, SudokuMatrice },
+  components: { PuzzleInput, SudokuMatrice, GitHubIcon },
   data() {
     return {
       puzzle: "1.5..2.84..63.12.7.2..5.....9..1....8.2.3674.3.7.2..9.47...8..1..16....926914.37.",
@@ -52,7 +53,10 @@ export default {
 
 <template>
   <div class="min-h-screen min-w-screen bg-zinc-900 p-5">
-    <h1 class="text-white text-6xl text-center mt-14">Sudoku Solver</h1>
+    <div class="flex justify-center mt-4">
+      <a href="https://github.com/kinchero1/Vue_Sudoku_solver" target="#blank"><GitHubIcon class="text-white hover:text-blue-500 transition-colors w-10 h-10 text-center" /></a>
+    </div>
+    <h1 class="text-white text-6xl text-center mt-6">Sudoku Solver</h1>
     <h1 class="text-white text-center my-8" >This Sodoku solver uses backtracking algorithm a brute force algorithm more info  <a class="text-blue-400 hover:text-blue-500 " target="#blank" href="https://en.wikipedia.org/wiki/Sudoku_solving_algorithms#Backtracking">here</a></h1>
     <div class="flex gap-10 justify-center">
       <div class="flex flex-col">

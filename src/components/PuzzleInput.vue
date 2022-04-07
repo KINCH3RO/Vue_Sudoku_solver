@@ -18,7 +18,7 @@ export default {
         <ol class="list-disc ml-4 text-gray-300 mb-4">
             <li>Ensure that there is 81 charchter</li>
             <li>
-                <span class="text-3xl">.</span>& numbers are the only allower charachters
+                <span class="text-3xl">.</span>& numbers are the only allowed charachters
             </li>
 
           
