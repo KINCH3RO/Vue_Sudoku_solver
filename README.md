@@ -3,6 +3,7 @@
 
  - This project is based on [FCC sudoku solver challenge](https://github.com/kinchero1/FCC_sudoku_solver)
  - This project made using vue and tailwind
+ - Checkout out the [Live Demo](https://sudoku-solv.netlify.app/)
  
 
 
